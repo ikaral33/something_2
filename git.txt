@@ -1,8 +1,11 @@
-init
-add
-commit
-push
+init - инициализация работы git в определенном репозитории (взятие под взор репозитория гитом) git init
+add - закидывает файлы в "индекс" гита. Индекс гита - файлы, готовые к коммиту git add {filename} git add . (все файлы)
+commit - сохранение файлов в системе git. git commit -m "{something_to_say}"
+log - вывод всех коммитов в данном репо. git log
+push - загрузка коммитов в ветку репо на GitHub. git push origin master - origin(имя репо) master(ветка, в которую выгружается)
 pull
+clone - скачать репозиторий на свою машину git clone {url_git_repo}
+
 теги
 ветки
 переключение между ними
